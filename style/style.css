@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    
+    /*zera a margem de 8px padrão dos navegadores no corpo (body)*/
+
+    text-align: center; 
+
+    /*text-align Esta propriedade destina-se a definir o alinhamento horizontal
+     do texto. Trata-se de uma propriedade herdada. Os valores possíveis 
+     para esta propriedade são. Alinha o texto à esquerda do box.*/
+
+    font-family: 'Opens Sans', sans-serif;
+    
+}
+
+#page {
+
+width: 592px;
+
+/*A propriedade CSS width determina a largura da área de conteúdo de um elemento.
+ A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um
+ elemento.*/
+
+margin: 0 auto 72px;
+
+/*
+margin-top: 0;       cima        ^
+margin-right: auto;  direita     >          
+margin-bottom: 72px; baixo       v
+margin-left: auto;   esquerda    <
+*/
+
+/*A propriedade margin do CSS define a área de margem nos quatro lados do 
+elemento. É uma abreviação que define todas as margens individuais de uma só vez:
+ margin-top , margin-right (en-US), margin-bottom , e margin-left (en-US)*/
+
+ /*As margin propriedades CSS são usadas para criar espaço ao redor dos elementos,
+ fora de qualquer borda definida. Com CSS, você tem controle total sobre as
+ margens. Existem propriedades para definir a margem para cada lado de um 
+ elemento (superior, direita, inferior e esquerda).*/
+
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+
+    font-size: 49px; 
+
+    line-height: 56px;
+
+    /*A propriedade CSS line-height permite controlar o espaçamento entre as
+     linhas de um texto. A distância é medida entre as linhas de base 
+     (baseline) de duas linhas*/
+
+    font-weight: normal;
+
+    /*A propriedade CSS font-weight especifica o peso ou a intensidade da 
+    fonte (ex.: negrito). Algumas fontes oferecem apenas as opções 
+    normal e negrito.*/
+
+    margin-bottom: 32px; 
+    
+    /*espaço de 32 pixells entre H1 e Parágrafo*/
+
+}
+
+h1 span { /*<---- 
+    h1 span é uma forma de especificidade  esta pegando
+     apenas o span que esta dentro de h1 */ 
+
+    font-weight: bold;
+
+    /*bold está em negrito*/
+
+}
+
+p {
+    color: #7d7987;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+span{
+    color: orange;
+}
+img {
+    
+    margin-bottom: 72px;
+    /*Aqui foi criado uma margem de 72 pixells abaixo da imagem 
+    distância entre imagem e H1*/
+}
+
+#line {
+    margin: 0 auto 8px;
+    width: 568px;
+    border: 1px #cfd2d875 solid;
+}
+a {
+    text-decoration: none;
+}
+
+a + a {
+      margin-left: 28px; 
+      
+
+}
+
+.bola {
+    position: fixed;
+    margin: 0px;
+    bottom: 0px;
+    right: 0px;
+
+}
